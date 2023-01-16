@@ -1,11 +1,14 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NicolasGensollen/nilearn-tutorial-EUGLOH-2021/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-workshop-paris-2023/HEAD)
 
-# nilearn tutorial EUGLOH 2021
+# Nilearn tutorial for EBRAINS workshop
+### [Anatomy and function of the prefrontal cortex across species](https://www.humanbrainproject.eu/en/education-training-career/workshops/pfc/)
+#### March 16, 2023, Paris, France
 
-This repository holds the materials for the Nilearn tutorial for the EUGLOH Summer School focused on Neuroscience.
+This repository holds the materials for the nilearn tutorial for the EBRAINS workshop.
 
 The notebooks are based from previous nilearn tutorials:
 
+- [Nilearn tutorial EUGLOH 2021](https://github.com/NicolasGensollen/nilearn-tutorial-EUGLOH-2021) given by [Nicolas Gensollen](https://github.com/NicolasGensollen)
 - [Resting State and Brain Connectivity 2018 satellite workshop](https://github.com/illdopejake/RS2018_Nilearn_tutorial) given by [Gaël Varoquaux](https://github.com/GaelVaroquaux) and [Jacob Vogel](https://github.com/illdopejake).
 - [NHA 2020 tutorial](https://emdupre.github.io/nha2020-nilearn/01-data-structures.html) given by [Elizabeth Dupre](https://github.com/emdupre).
 
@@ -14,12 +17,7 @@ The notebooks are based from previous nilearn tutorials:
 
 To be able to run the tutorial materials we need a few things:
 
-- **Python 3:** Most recent systems come with Python pre-installed. However, depending on your system, you might still have python 2 as your default Python.
-
-<div class="alert alert-block alert-danger">
-<b>Danger:</b> Nilearn does not support Python 2 anymore, so make sure to have Python 3 installed.
-</div>
-
+- **Python 3:** Most recent systems come with Python pre-installed. However, depending on your system, you might still have python 2 as your default Python. **Nilearn supports Python>=3.7.**
 - **pip:** `pip` is the standard package manager for Python. It is a very powerful tool to manage your python packages. You can learn more on pip [here](https://realpython.com/what-is-pip/).
 
 <div class="alert alert-block alert-info">
@@ -48,8 +46,8 @@ pip X.Y.Z from ...\site-packages\pip (python X.Y)
 If you have these tools installed, you can download the repository with the notebooks:
 
 ```
-$ git clone git@github.com:NicolasGensollen/nilearn-tutorial-EUGLOH-2021.git
-$ cd nilearn-tutorial-EUGLOH-2021
+$ git clone https://github.com/ymzayek/nilearn-EBRAINS-workshop-paris-2023.git
+$ cd nilearn-EBRAINS-workshop-paris-2023
 ```
 
 Install the requirements (this will install nilearn and its dependencies, as well as Jupyter-notebooks):
@@ -80,5 +78,5 @@ You can then go back to the "The easy case" section and follow the instructions.
 
 ### Running the turorial notebooks online
 
-Alternatively, you can run the notebooks online via Binder by clicking this link: [https://mybinder.org/v2/gh/NicolasGensollen/nilearn-tutorial-EUGLOH-2021/HEAD](https://mybinder.org/v2/gh/NicolasGensollen/nilearn-tutorial-EUGLOH-2021/HEAD) or clicking the Binder badge at the top of the README file.
+Alternatively, you can run the notebooks online via Binder by clicking this link: [https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-workshop-paris-2023/HEAD](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-workshop-paris-2023/HEAD) or clicking the Binder badge at the top of the README file.
 
