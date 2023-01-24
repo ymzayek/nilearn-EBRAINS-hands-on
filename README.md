@@ -1,6 +1,6 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-workshop-paris-2023/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD)
 
-# Nilearn tutorial for hands-on
+# Nilearn tutorial for hands-on workshop
 
 This repository holds the materials for the nilearn tutorial for the EBRAINS hands-on workshop in Marseille.
 
@@ -44,8 +44,8 @@ pip X.Y.Z from ...\site-packages\pip (python X.Y)
 If you have these tools installed, you can download the repository with the notebooks:
 
 ```
-$ git clone https://github.com/ymzayek/nilearn-EBRAINS-workshop-paris-2023.git
-$ cd nilearn-EBRAINS-workshop-paris-2023
+$ git clone https://github.com/ymzayek/nilearn-EBRAINS-hands-on.git
+$ cd nilearn-EBRAINS-hands-on
 ```
 
 Install the requirements (this will install nilearn and its dependencies, as well as Jupyter-notebooks):
@@ -76,5 +76,5 @@ You can then go back to the "The easy case" section and follow the instructions.
 
 ### Running the turorial notebooks online
 
-Alternatively, you can run the notebooks online via Binder by clicking this link: [https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-workshop-paris-2023/HEAD](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-workshop-paris-2023/HEAD) or clicking the Binder badge at the top of the README file.
+Alternatively, you can run the notebooks online via Binder by clicking this link: [https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD) or clicking the Binder badge at the top of the README file.
 
