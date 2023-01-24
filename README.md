@@ -1,10 +1,8 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-workshop-paris-2023/HEAD)
 
-# Nilearn tutorial for EBRAINS workshop
-### [Anatomy and function of the prefrontal cortex across species](https://www.humanbrainproject.eu/en/education-training-career/workshops/pfc/)
-#### March 16, 2023, Paris, France
+# Nilearn tutorial for hands-on
 
-This repository holds the materials for the nilearn tutorial for the EBRAINS workshop.
+This repository holds the materials for the nilearn tutorial for the EBRAINS hands-on workshop in Marseille.
 
 The notebooks are based from previous nilearn tutorials:
 
