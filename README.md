@@ -1,6 +1,8 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD)
 
-# Nilearn tutorial for hands-on workshop
+# Nilearn tutorial for EBRAINS hands-on workshop 2023
+
+March 24, 2023
 
 This repository holds the materials for the nilearn tutorial for the EBRAINS hands-on workshop in Marseille.
 
