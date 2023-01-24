@@ -38,7 +38,7 @@ pip X.Y.Z from ...\site-packages\pip (python X.Y)
 ```
 </div>
 
-- **git:** `git` is the most popular VCS (version controlled software). Although we recommand having `git` installed to download these notebooks, you can also use the download button on GitHub. You can learn more on `git` [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
+- **git:** `git` is the most popular VCS (version controlled software). Although we recommend having `git` installed to download these notebooks, you can also use the download button on GitHub. You can learn more on `git` [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
 
 
 #### The easy case
@@ -65,7 +65,7 @@ $ jupyter-notebook
 
 #### The harder case 
 
-If you don't have these tools installed already, we recommand to rely on [anaconda](https://www.anaconda.com/products/individual). `Anaconda` is a distribution of the Python programming languages for scientific computing which aims at simplifying package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS.
+If you don't have these tools installed already, we recommend to rely on [anaconda](https://www.anaconda.com/products/individual). `Anaconda` is a distribution of the Python programming languages for scientific computing which aims at simplifying package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS.
 
 Once you have downloaded and installed anaconda, you can create a new virtual environment dedicated to nilearn:
 
@@ -76,7 +76,7 @@ $ conda activate nilearn
 
 You can then go back to the "The easy case" section and follow the instructions.
 
-### Running the turorial notebooks online
+### Running the tutorial notebooks online
 
 Alternatively, you can run the notebooks online via Binder by clicking this link: [https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD) or clicking the Binder badge at the top of the README file.
 
