@@ -13,41 +13,35 @@ The notebooks are based from previous nilearn tutorials:
 - [NHA 2020 tutorial](https://emdupre.github.io/nha2020-nilearn/01-data-structures.html) given by [Elizabeth Dupre](https://github.com/emdupre).
 
 
-## Install
+## Running the notebooks online on EBRAINS platform
+
+To run the notebooks using EBRAINS JupyterLab environment, click one of the following links. You will be prompted to authenticate and choose the execution site (the default should be fine).
+
+[01-intro-to-nilearn.ipynb](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2FNotebooks%2F01-intro-to-nilearn.ipynb&branch=main)
+
+[02-classification-example.ipynb]()
+
+
+## Local installation instructions:
 
 To be able to run the tutorial materials we need a few things:
 
-- **Python 3:** Most recent systems come with Python pre-installed. However, depending on your system, you might still have python 2 as your default Python. **Nilearn supports Python>=3.7.**
-- **pip:** `pip` is the standard package manager for Python. It is a very powerful tool to manage your python packages. You can learn more on pip [here](https://realpython.com/what-is-pip/).
-
-<div class="alert alert-block alert-info">
-<b>Tip:</b> If you want to check whether you have pip installed:
-
-**Linux:**
-
-```
-$ python -m pip --version
-pip X.Y.Z from .../site-packages/pip (python X.Y)
-```
-
-**Windows:**
-
-```
-C:\> py -m pip --version
-pip X.Y.Z from ...\site-packages\pip (python X.Y)
-```
-</div>
-
+- **Python 3:** Most recent systems come with Python pre-installed. **Nilearn supports Python>=3.7.**
 - **git:** `git` is the most popular VCS (version controlled software). Although we recommend having `git` installed to download these notebooks, you can also use the download button on GitHub. You can learn more on `git` [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
-
-
-#### The easy case
 
 If you have these tools installed, you can download the repository with the notebooks:
 
 ```
 $ git clone https://github.com/ymzayek/nilearn-EBRAINS-hands-on.git
 $ cd nilearn-EBRAINS-hands-on
+```
+
+Although not required, we recommend creating and activating a virtual environment before installing the requirements:
+The example show how to do this using Python venv module but you can use any environment package you're used to:
+
+```
+python3 -m venv nilearn_tutorial
+source nilearn_tutorial/bin/activate
 ```
 
 Install the requirements (this will install nilearn and its dependencies, as well as Jupyter-notebooks):
@@ -63,18 +57,6 @@ $ cd Notebooks
 $ jupyter-notebook
 ```
 
-#### The harder case 
-
-If you don't have these tools installed already, we recommend to rely on [anaconda](https://www.anaconda.com/products/individual). `Anaconda` is a distribution of the Python programming languages for scientific computing which aims at simplifying package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS.
-
-Once you have downloaded and installed anaconda, you can create a new virtual environment dedicated to nilearn:
-
-```
-$ conda create -n nilearn python=3.9
-$ conda activate nilearn
-```
-
-You can then go back to the "The easy case" section and follow the instructions.
 
 ### Running the tutorial notebooks online
 
