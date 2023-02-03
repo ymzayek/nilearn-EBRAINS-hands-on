@@ -13,7 +13,7 @@ The notebooks are based from previous nilearn tutorials:
 
 ## Running the notebooks online on the EBRAINS platform
 
-To run the notebooks using EBRAINS JupyterLab environment, click one of the following links. You will be prompted to authenticate and choose the execution site (the default should be fine).
+To run the notebooks using EBRAINS JupyterHub environment, click on the link below. You will be prompted to authenticate and choose the execution site (the default should be fine). Then select the default recommended docker image to start JupyterHub. On the left-hand side directory you can navigate to and open the notebooks.
 
 [Nilearn hands-on materials](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F)
 
