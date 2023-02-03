@@ -1,5 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD)
-
 # Nilearn tutorial for EBRAINS hands-on workshop 2023
 
 March 24, 2023
@@ -13,18 +11,16 @@ The notebooks are based from previous nilearn tutorials:
 - [NHA 2020 tutorial](https://emdupre.github.io/nha2020-nilearn/01-data-structures.html) given by [Elizabeth Dupre](https://github.com/emdupre).
 
 
-## Running the notebooks online on EBRAINS platform
+## Running the notebooks online on the EBRAINS platform
 
 To run the notebooks using EBRAINS JupyterLab environment, click one of the following links. You will be prompted to authenticate and choose the execution site (the default should be fine).
 
-[01-intro-to-nilearn.ipynb](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2FNotebooks%2F01-intro-to-nilearn.ipynb&branch=main)
-
-[02-classification-example.ipynb]()
+[Nilearn hands-on materials](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F)
 
 
 ## Local installation instructions:
 
-To be able to run the tutorial materials we need a few things:
+If you would like to run the tutorial locally you will need a few things:
 
 - **Python 3:** Most recent systems come with Python pre-installed. **Nilearn supports Python>=3.7.**
 - **git:** `git` is the most popular VCS (version controlled software). Although we recommend having `git` installed to download these notebooks, you can also use the download button on GitHub. You can learn more on `git` [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
@@ -56,9 +52,3 @@ Launch the notebooks:
 $ cd Notebooks
 $ jupyter-notebook
 ```
-
-
-### Running the tutorial notebooks online
-
-Alternatively, you can run the notebooks online via Binder by clicking this link: [https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD](https://mybinder.org/v2/gh/ymzayek/nilearn-EBRAINS-hands-on/HEAD) or clicking the Binder badge at the top of the README file.
-
