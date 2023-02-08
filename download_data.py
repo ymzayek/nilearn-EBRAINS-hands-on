@@ -1,21 +1,26 @@
 from nilearn.datasets.utils import _fetch_files
 import zipfile
-
+from pathlib import Path
 
 def download_data():
-    # Example file
-    # TODO: change to actual file when uploaded to OSF
-    url = f'https://osf.io/nxwsq/download'
+    # download zip file from OSF
+    data_path = Path('Notebooks/data')
+    url = f'https://osf.io/2mrwe/download'
     _fetch_files(
-        'Notebooks/data', [(
-            f'sub-01.zip',
+        data_path, [(
+            'mcse.zip',
             url,
-            {'move': f'sub-01.zip'}
+            {'move': 'mcse.zip'}
         )]
     )
 
-    with zipfile.ZipFile('Notebooks/data/sub-01.zip', 'r') as zip_ref:
-        zip_ref.extractall('Notebooks/data')
+    # extract data
+    with zipfile.ZipFile(data_path / 'mcse.zip', 'r') as zip_ref:
+        zip_ref.extractall(data_path)
+    
+    
+    # delete zip file
+    Path.unlink(data_path / 'mcse.zip')
 
 
 def main():
