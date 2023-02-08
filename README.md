@@ -4,12 +4,6 @@ March 24, 2023
 
 This repository holds the materials for the nilearn tutorial for the EBRAINS hands-on workshop in Marseille.
 
-The notebooks are based from previous nilearn tutorials:
-
-- [Nilearn tutorial EUGLOH 2021](https://github.com/NicolasGensollen/nilearn-tutorial-EUGLOH-2021) given by [Nicolas Gensollen](https://github.com/NicolasGensollen)
-- [Resting State and Brain Connectivity 2018 satellite workshop](https://github.com/illdopejake/RS2018_Nilearn_tutorial) given by [Gaël Varoquaux](https://github.com/GaelVaroquaux) and [Jacob Vogel](https://github.com/illdopejake).
-- [NHA 2020 tutorial](https://emdupre.github.io/nha2020-nilearn/01-data-structures.html) given by [Elizabeth Dupre](https://github.com/emdupre).
-
 
 ## Running the notebooks online on the EBRAINS platform
 
@@ -32,8 +26,8 @@ $ git clone https://github.com/ymzayek/nilearn-EBRAINS-hands-on.git
 $ cd nilearn-EBRAINS-hands-on
 ```
 
-Although not required, we recommend creating and activating a virtual environment before installing the requirements:
-The example show how to do this using Python venv module but you can use any environment package you're used to:
+Although not required, we recommend creating and activating a virtual environment before installing the requirements.
+The example shows how to do this using Python venv module but you can use any environment management tool you're used to:
 
 ```
 python3 -m venv nilearn_tutorial
@@ -52,3 +46,10 @@ Launch the notebooks:
 $ cd Notebooks
 $ jupyter-notebook
 ```
+
+The notebooks are based from previous nilearn tutorials:
+
+- [Nilearn tutorial EUGLOH 2021](https://github.com/NicolasGensollen/nilearn-tutorial-EUGLOH-2021) given by [Nicolas Gensollen](https://github.com/NicolasGensollen)
+- [Resting State and Brain Connectivity 2018 satellite workshop](https://github.com/illdopejake/RS2018_Nilearn_tutorial) given by [Gaël Varoquaux](https://github.com/GaelVaroquaux) and [Jacob Vogel](https://github.com/illdopejake).
+- [NHA 2020 tutorial](https://emdupre.github.io/nha2020-nilearn/01-data-structures.html) given by [Elizabeth Dupre](https://github.com/emdupre).
+
