@@ -1,7 +1,6 @@
 """
 This script runs a simple glm on one subject for the MCSE condition 
 and returns the contrasts obtained
-TODO: group analysis
 TODO: remove anatomical images from data package
 TODO: make it a notebook
 TODO: trial-wise model
@@ -106,13 +105,11 @@ for i, (event, confound, img) in enumerate(zip(events, confounds, bold)):
     event_df = event_df[event_df. trial_type != 'Bfix']
     event_dfs.append(event_df) 
 
-    """
     # fit the model
     model.fit(img, events=event_df, confounds=confound)
     report = model.generate_report(contrasts)
     report.save_as_html(
         os.path.join(subject_dir, 'report_{}.html'.format(i)))
-    """
 
 #############################################################################
 # Directly compute a fixed effects
