@@ -40,10 +40,9 @@ Install the requirements (this will install nilearn and its dependencies, as wel
 $ pip install -r requirements.txt
 ```
 
-Launch the notebooks:
+Launch the notebooks with the following command:
 
 ```
-$ cd Notebooks
 $ jupyter-notebook
 ```
 
