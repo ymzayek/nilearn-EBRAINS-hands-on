@@ -5,11 +5,12 @@ import glob
 
 def download_data():
     # download zip file from OSF
-    data_exists = glob.glob("**/3mm", recursive=True)
+    repo_path = str(Path(__file__).parent.parent)
+    data_exists = glob.glob(repo_path + "/**/*3mm", recursive=True)
     if data_exists:
-        return print(f"Data is already downloaded; check paths {data_exists}")
+        return print(f"Data is already downloaded; check path {data_exists}")
 
-    data_path = Path('data')
+    data_path = Path(repo_path + '/Notebooks/data')
     osfID = '2mrwe'
     filename = 'mcse.zip'
     url = f'https://osf.io/{osfID}/download'
@@ -24,7 +25,6 @@ def download_data():
     # extract data
     with zipfile.ZipFile(data_path / filename, 'r') as zip_ref:
         zip_ref.extractall(data_path)
-    
     
     # delete zip file
     Path.unlink(data_path / filename)
