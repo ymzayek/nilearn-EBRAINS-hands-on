@@ -1,2 +1,4 @@
 Notebooks/data/3mm
-__pycache__/
+__pycache__
+Notebooks/.ipynb_checkpoints
+Notebooks/results
