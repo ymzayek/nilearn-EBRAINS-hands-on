@@ -6,8 +6,7 @@ This repository holds the materials for the Nilearn tutorial for the EBRAINS han
 
 
 ## Run the notebooks online on EBRAINS Lab
-
-<a href="foo.html"><font size="5"> [Nilearn hands-on materials](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F)</font></a>
+<a href="foo.html"><font size="6"> [Nilearn hands-on materials](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F)</font></a>
 ___
 
 ### Local installation instructions:
