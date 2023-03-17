@@ -5,9 +5,10 @@ March 27, 2023
 This repository holds the materials for the Nilearn tutorial for the EBRAINS hands-on workshop in Marseille.
 
 
-## Run the notebooks online on EBRAINS Lab
+### Click the following link to run the notebooks online on EBRAINS Lab
 
-<a href="https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F"><font size="6"> Nilearn hands-on materials</font></a>
+### [Nilearn hands-on materials](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F)
+
 ___
 
 ### Local installation instructions:
