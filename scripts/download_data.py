@@ -29,6 +29,10 @@ def download_data():
     # delete zip file
     Path.unlink(data_path / filename)
 
+    new_data_path = glob.glob(repo_path + "/**/*3mm", recursive=True)
+
+    return print(f"Data downloaded to {new_data_path}")
+
 
 if __name__ == "__main__":
     download_data()
