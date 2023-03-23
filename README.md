@@ -1,18 +1,17 @@
 # Nilearn tutorial for EBRAINS hands-on workshop 2023
 
-March 24, 2023
+March 27, 2023
 
 This repository holds the materials for the Nilearn tutorial for the EBRAINS hands-on workshop in Marseille.
 
 
-## Running the notebooks online on EBRAINS Lab
+### Click the following link to run the notebooks online on EBRAINS Lab
 
-To run the notebooks using the EBRAINS Lab environment, click on the link below. You will be prompted to choose the execution site (the default should be fine) and authenticate if you haven't already. Then select the default (recommended) docker image for the server option to start JupyterHub. Now you can navigate to and open the notebooks from the directory on the left-hand side.
+### [Nilearn hands-on materials](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F)
 
-[Nilearn hands-on materials](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2Fnilearn-EBRAINS-hands-on&urlpath=lab%2Ftree%2Fnilearn-EBRAINS-hands-on%2F)
+___
 
-
-## Local installation instructions:
+### Local installation instructions:
 
 If you would like to run the tutorial locally you will need a few things:
 
